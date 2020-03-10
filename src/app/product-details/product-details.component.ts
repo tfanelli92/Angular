@@ -10,7 +10,7 @@ import { CartService } from '../cart.service';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  product : [];
+  product;
 
   constructor( 
     private route : ActivatedRoute,
